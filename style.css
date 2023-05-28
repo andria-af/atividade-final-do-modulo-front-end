@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding-left: 300px;
+    min-height: 100vh;
+}
+
+header {
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 300px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blueviolet;
+    border-top: 10px solid #dc7d49;
+    border-bottom: 10px solid #dc7d49;
+    border-left: 10px solid #dc7d49;
+}
+
+#foto-perfil {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid 10px #dc7d49;
+    margin-left: 25px;
+}
+
+nav {
+    margin-top: 20px;
+    display: grid;
+    text-align: center;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+    font-weight: bold;
+}
+
+.links-icons img {
+    height: 45px;
+}
+
+main {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 10px solid #dc7d49;
+    background-color: #dc7d49;
+}
+
+.titulo-section {
+    color: blueviolet;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.texto-section {
+    color: rgb(39, 38, 38);
+    text-align: justify;
+    padding: 20px;
+    margin-left: 20px;  
+}
+
+.itens.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.links-icons {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.lista-objetivos {
+    color: rgb(39, 38, 38);
+    text-align: center;
+    list-style: none;
+}
+
+ul li {
+    padding: 6px;
+}
+
+ol {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+
+.lista-conhecimentos {
+    text-align: center;
+    color: rgb(39, 38, 38);
+    list-style: none;
+}
+
+ol img {
+    height: 25px;
+}
